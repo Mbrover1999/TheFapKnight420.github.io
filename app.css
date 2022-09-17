@@ -1,0 +1,159 @@
+body {
+    background-color: #272c35;
+    font-family: 'Raleway', sans-serif;
+    color: #b3b3b4;
+
+}
+
+.navbar {
+    /*background: #2a303c;*/
+    background-color: #272c35;
+}
+
+.navbar_first_name {
+    color: #00b5bf !important;
+}
+
+.navbar span {
+    color: #b3b4b4;
+}
+
+.navbar_last_name {
+    color: #6fc269 !important;
+
+
+}
+
+.dropdown-menu {
+    background: #b3b4b4;
+}
+
+.dropdown-item:hover {
+    background: #b3b4b4;
+    color: snow;
+}
+
+.nav-link {
+    font-size: 1.25rem !important;
+    color: #b3b3b4 !important;
+}
+
+.nav-link:hover {
+    color: #d1915a !important;
+    text-shadow: #d1915a !important;
+    transition: color 1000ms;
+}
+.navbar-brand{
+    font-size: 1.5em;
+}
+
+.main_content {
+    margin-top: 50px;
+    padding-left: 100px;
+}
+
+.content {
+    margin-bottom: 30px;
+}
+
+.content_print {
+    padding-left: 60px;
+}
+
+.content_skills {
+    padding-left: 60px;
+
+}
+
+.header {
+    color: #00b5bf;
+
+}
+
+.skills_label {
+    color: #dc53db;
+}
+
+.exp_value {
+    color: #d1915a;
+}
+.main_header{
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: solid #b3b3b4; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    width: 46%;
+    animation:
+            typing 2.5s steps(60),
+            blink-caret .75s step-end infinite ;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 46% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #b3b3b4; }
+}
+
+@media (max-width: 1000px) {
+    .main_content {
+        padding-left: 40px;
+        padding-top: 150px;
+    }
+
+    .main_header {
+        font-size: 3em;
+    }
+
+    .main_item {
+        font-size: 2.75em;
+    }
+    .navbar{
+        height: 100px !important;
+    }
+    .navbar-brand{
+        font-size: 3.5em;
+    }
+    .navbar-toggler-icon{
+        scale: 250%;
+    }
+    .nav-link{
+        font-size: 2.0em !important;
+    }
+    .dropdown-menu{
+        font-size: 1.5em;
+    }
+    .nav-item{
+        border-bottom: #b3b4b4;
+    }
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .navbar-collapse{
+        background: #20252c;
+    }
+
+    .main_header{
+        overflow: hidden; /* Ensures the content is not revealed until the animation */
+        border-right: solid #b3b3b4; /* The typwriter cursor */
+        white-space: nowrap; /* Keeps the content on a single line */
+        width: 93%;
+        animation:
+                typing 2.5s steps(60),
+                blink-caret .75s step-end infinite ;
+    }
+
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 93% }
+    }
+
+    @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: #b3b3b4; }
+    }
+
+
+}
