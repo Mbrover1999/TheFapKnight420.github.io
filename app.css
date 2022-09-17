@@ -92,6 +92,7 @@ body {
 .console_local {
     margin-left: 15px;
     border-bottom: solid #3367b8;
+    border-width: thick;
 }
 
 .console_icons {
@@ -143,7 +144,7 @@ scale: 150%;
 @media (max-width: 1600px) {
     .main_content {
         padding-left: 40px;
-        padding-top: 150px;
+        padding-top: 10px;
     }
 
     .main_header {
@@ -195,10 +196,8 @@ scale: 150%;
         blink-caret .75s step-end infinite;
     }
     .console_header{
-        margin-top: 140px;
-    }
-    .console_header{
         font-size: 1.75em;
+        margin-top: 130px;
     }
     .console_icons{
         scale: 120% !important;
