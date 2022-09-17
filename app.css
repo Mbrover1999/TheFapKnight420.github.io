@@ -78,7 +78,7 @@ body {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: solid #b3b3b4; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
-    width: 44%;
+    width: 46%;
     animation:
             typing 2.5s steps(60),
             blink-caret .75s step-end infinite ;
@@ -86,7 +86,7 @@ body {
 
 @keyframes typing {
     from { width: 0 }
-    to { width: 44% }
+    to { width: 46% }
 }
 
 @keyframes blink-caret {
@@ -106,5 +106,25 @@ body {
     .main_item {
         font-size: 1.25em;
     }
+    .main_header{
+        overflow: hidden; /* Ensures the content is not revealed until the animation */
+        border-right: solid #b3b3b4; /* The typwriter cursor */
+        white-space: nowrap; /* Keeps the content on a single line */
+        width: 52%;
+        animation:
+                typing 2.5s steps(60),
+                blink-caret .75s step-end infinite ;
+    }
+
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 52% }
+    }
+
+    @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: #b3b3b4; }
+    }
+
 
 }
