@@ -43,6 +43,9 @@ body {
     text-shadow: #d1915a !important;
     transition: color 1000ms;
 }
+.navbar-brand{
+    font-size: 1.5em;
+}
 
 .main_content {
     margin-top: 50px;
@@ -96,21 +99,35 @@ body {
 
 @media (max-width: 1000px) {
     .main_content {
-        padding-left: 20px;
+        padding-left: 40px;
+        padding-top: 175px;
     }
 
     .main_header {
-        font-size: 1.75em;
+        font-size: 3em;
     }
 
     .main_item {
-        font-size: 1.25em;
+        font-size: 2.75em;
     }
+    .navbar{
+        height: 200px;
+    }
+    .navbar-brand{
+        font-size: 3.5em;
+    }
+    .navbar-toggler-icon{
+        scale: 175%;
+    }
+    .nav-link{
+        font-size: 2.25em !important;
+    }
+
     .main_header{
         overflow: hidden; /* Ensures the content is not revealed until the animation */
         border-right: solid #b3b3b4; /* The typwriter cursor */
         white-space: nowrap; /* Keeps the content on a single line */
-        width: 52%;
+        width: 93%;
         animation:
                 typing 2.5s steps(60),
                 blink-caret .75s step-end infinite ;
@@ -118,7 +135,7 @@ body {
 
     @keyframes typing {
         from { width: 0 }
-        to { width: 52% }
+        to { width: 93% }
     }
 
     @keyframes blink-caret {
