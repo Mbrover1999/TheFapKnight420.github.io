@@ -43,7 +43,8 @@ body {
     text-shadow: #d1915a !important;
     transition: color 1000ms;
 }
-.navbar-brand{
+
+.navbar-brand {
     font-size: 1.5em;
 }
 
@@ -77,27 +78,68 @@ body {
 .exp_value {
     color: #d1915a;
 }
-.main_header{
+
+.main_header {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: solid #b3b3b4; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     width: 46%;
-    animation:
-            typing 2.5s steps(60),
-            blink-caret .75s step-end infinite ;
+    animation: typing 2.5s steps(60),
+    blink-caret .75s step-end infinite;
+}
+
+
+.console_local {
+    margin-left: 15px;
+    border-bottom: solid #3367b8;
+}
+
+.console_icons {
+    margin-left: 15px;
+}
+
+.console_header {
+    background: #303744;
+}
+
+.console_content {
+    padding-left: 8px;
+}
+
+.last_console_text {
+    width: 35%;
+    border-right: solid #b3b4b4;
+    border-width: thick;
+    animation: blink-caret .75s step-end infinite;
+    padding-left: 8px;
+}
+.links_section{
+    padding-left: 400px;
+    padding-top: 125px;
+}
+.links_icons{
+scale: 150%;
 }
 
 @keyframes typing {
-    from { width: 0 }
-    to { width: 46% }
+    from {
+        width: 0
+    }
+    to {
+        width: 46%
+    }
 }
 
 @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: #b3b3b4; }
+    from, to {
+        border-color: transparent
+    }
+    50% {
+        border-color: #b3b3b4;
+    }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1600px) {
     .main_content {
         padding-left: 40px;
         padding-top: 150px;
@@ -110,49 +152,88 @@ body {
     .main_item {
         font-size: 2.75em;
     }
-    .navbar{
+
+    .navbar {
         height: 100px !important;
     }
-    .navbar-brand{
+
+    .navbar-brand {
         font-size: 3.5em;
     }
-    .navbar-toggler-icon{
+
+    .navbar-toggler-icon {
         scale: 250%;
     }
-    .nav-link{
+
+    .nav-link {
         font-size: 2.0em !important;
     }
-    .dropdown-menu{
+
+    .dropdown-menu {
         font-size: 1.5em;
     }
-    .nav-item{
+
+    .nav-item {
         border-bottom: #b3b4b4;
     }
-    .navbar-toggler:focus{
+
+    .navbar-toggler:focus {
         box-shadow: none;
     }
-    .navbar-collapse{
+
+    .navbar-collapse {
         background: #20252c;
     }
 
-    .main_header{
+    .main_header {
         overflow: hidden; /* Ensures the content is not revealed until the animation */
         border-right: solid #b3b3b4; /* The typwriter cursor */
         white-space: nowrap; /* Keeps the content on a single line */
         width: 93%;
-        animation:
-                typing 2.5s steps(60),
-                blink-caret .75s step-end infinite ;
+        animation: typing 2.5s steps(60),
+        blink-caret .75s step-end infinite;
+    }
+    .console_header{
+        margin-top: 400px;
+    }
+    .console_header{
+        font-size: 1.75em;
+    }
+    .console_icons{
+        scale: 120% !important;
+    }
+    .console_content{
+        font-size: 1.55em;
+    }
+    .last_console_text{
+        font-size: 1.55em;
+        white-space: nowrap;
+        width: 93%;
+    }
+    .links_section{
+        padding-left: 200px;
+        padding-top: 450px;
+    }
+    .links_icons{
+        scale: 300%;
     }
 
     @keyframes typing {
-        from { width: 0 }
-        to { width: 93% }
+        from {
+            width: 0
+        }
+        to {
+            width: 93%
+        }
     }
 
     @keyframes blink-caret {
-        from, to { border-color: transparent }
-        50% { border-color: #b3b3b4; }
+        from, to {
+            border-color: transparent
+        }
+        50% {
+            border-color: #b3b3b4;
+        }
     }
 
 
