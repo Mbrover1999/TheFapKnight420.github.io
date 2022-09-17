@@ -100,7 +100,7 @@ body {
 @media (max-width: 1000px) {
     .main_content {
         padding-left: 40px;
-        padding-top: 175px;
+        padding-top: 150px;
     }
 
     .main_header {
@@ -111,7 +111,7 @@ body {
         font-size: 2.75em;
     }
     .navbar{
-        height: 275px;
+        height: 100px;
     }
     .navbar-brand{
         font-size: 3.5em;
@@ -120,13 +120,19 @@ body {
         scale: 250%;
     }
     .nav-link{
-        font-size: 2.25em !important;
+        font-size: 2.0em !important;
     }
     .dropdown-menu{
-        font-size: 1.7em;
+        font-size: 1.5em;
+    }
+    .nav-item{
+        border-bottom: #b3b4b4;
     }
     .navbar-toggler:focus{
         box-shadow: none;
+    }
+    .navbar-collapse{
+        background: #20252c;
     }
 
     .main_header{
