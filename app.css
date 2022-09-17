@@ -111,16 +111,22 @@ body {
         font-size: 2.75em;
     }
     .navbar{
-        height: 200px;
+        height: 275px;
     }
     .navbar-brand{
         font-size: 3.5em;
     }
     .navbar-toggler-icon{
-        scale: 175%;
+        scale: 250%;
     }
     .nav-link{
         font-size: 2.25em !important;
+    }
+    .dropdown-menu{
+        font-size: 1.7em;
+    }
+    .navbar-toggler:focus{
+        box-shadow: none;
     }
 
     .main_header{
