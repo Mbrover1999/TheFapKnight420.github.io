@@ -24,6 +24,11 @@ body {
 
 }
 
+.navbar.scrolled {
+    background: #1c2026;
+    transition: background 500ms;
+}
+
 .dropdown-menu {
     background: #b3b4b4;
 }
@@ -119,12 +124,44 @@ body {
     /*animation: blink-caret .75s step-end infinite;*/
     padding-left: 8px;
 }
-.links_section{
+
+.links_section {
     padding-left: 400px;
     padding-top: 100px;
 }
-.links_icons{
-scale: 150%;
+
+.links_icons {
+    scale: 150%;
+}
+
+.about_content {
+    display: flex !important;
+    /*align-items: center;*/
+    justify-content: center !important;
+}
+
+.photo {
+    margin-top: 140px;
+    height: 150px;
+    width: 150px;
+    border-radius: 80%;
+}
+
+.bio_header {
+    border-bottom: solid #00b5bf;
+    border-width: 5px !important;
+    width: max-content;
+}
+.bio_content{
+    font-size: 1.2rem;
+}
+
+.list_manager{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.list_header{
+    font-size: 2rem;
 }
 
 @keyframes typing {
@@ -199,29 +236,59 @@ scale: 150%;
         animation: typing 2.5s steps(60),
         blink-caret .75s step-end infinite;
     }
-    .console_header{
+
+    .console_header {
         font-size: 1.75em;
         margin-top: 130px;
     }
-    .console_icons{
+
+    .console_icons {
         scale: 120% !important;
     }
-    .console_content{
+
+    .console_content {
         font-size: 1.55em;
     }
-    .last_console_text{
+
+    .last_console_text {
         font-size: 1.55em;
         white-space: nowrap;
         width: 93%;
     }
-    .links_section{
+
+    .links_section {
         padding-left: 200px;
         padding-top: 450px;
-    }
-    .links_icons{
-        scale: 300%;
+        padding-bottom: 100px;
     }
 
+    .links_icons {
+        scale: 300%;
+    }
+    .photo {
+        margin-top: 250px;
+        height: 200px;
+        width: 200px;
+        border-radius: 80%;
+    }
+
+    .bio_header {
+        border-bottom: solid #00b5bf;
+        border-width: 5px !important;
+        width: max-content;
+        font-size: 3.2rem;
+    }
+    .bio_content{
+        font-size: 1.8rem;
+    }
+
+    .list_manager{
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+    .list_header{
+        font-size: 2.9rem;
+    }
     @keyframes typing {
         from {
             width: 0
