@@ -326,3 +326,10 @@ body {
 
 
 }
+@media (max-width: 1700px) {
+    .links_section{
+        margin-top: 170px;
+
+    }
+
+}
