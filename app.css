@@ -24,7 +24,7 @@ body {
 
 }
 
-.navbar.scrolled {
+#mainNavbar.scrolled {
     background: #1c2026;
     transition: background 500ms;
 }
@@ -88,8 +88,8 @@ body {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: solid #b3b3b4; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
-    width: 46%;
-    animation: typing 2.5s steps(60),
+    width: fit-content;
+    animation: typing 2.5s steps(100),
     blink-caret .75s step-end infinite;
 }
 
@@ -118,17 +118,23 @@ body {
 }
 
 .last_console_text {
-    width: 35%;
+    width: fit-content;
     border-right: solid #b3b4b4;
     border-width: thick;
     /*animation: blink-caret .75s step-end infinite;*/
     padding-left: 8px;
 }
+.icons_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+
+}
 .links_section {
-    padding-left: 400px;
-    padding-top: 100px;
-    padding-bottom: 30px;
+    margin-top: 500px;
+    margin-bottom: 30px;
+
 }
 
 .links_icons {
@@ -170,7 +176,7 @@ body {
         width: 0
     }
     to {
-        width: 46%
+        width: 750px;
     }
 }
 
@@ -233,7 +239,7 @@ body {
         overflow: hidden; /* Ensures the content is not revealed until the animation */
         border-right: solid #b3b3b4; /* The typwriter cursor */
         white-space: nowrap; /* Keeps the content on a single line */
-        width: 93%;
+        width: fit-content;
         animation: typing 2.5s steps(60),
         blink-caret .75s step-end infinite;
     }
@@ -254,18 +260,28 @@ body {
     .last_console_text {
         font-size: 1.55em;
         white-space: nowrap;
-        width: 93%;
+
+    }
+    .icons_container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
     }
 
     .links_section {
-        padding-left: 200px;
-        padding-top: 450px;
-        padding-bottom: 100px;
+        /*padding-left: 200px;*/
+        width: 280px;
+        margin-top: 800px;
+        margin-bottom:50px;
+        margin-left: 50px;
     }
 
-    .links_icons {
-        scale: 300%;
+    .links_icons{
+        scale: 250%;
     }
+
     .photo {
         margin-top: 250px;
         height: 200px;
@@ -295,7 +311,7 @@ body {
             width: 0
         }
         to {
-            width: 93%
+            width: 883px
         }
     }
 
