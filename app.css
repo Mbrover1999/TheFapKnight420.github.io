@@ -1,3 +1,4 @@
+
 body {
     background-color: #272c35;
     font-family: 'Inconsolata', monospace;
@@ -267,7 +268,8 @@ body {
         justify-content: center;
         align-items: center;
         margin-top: 400px;
-        margin-bottom:200px;
+        margin-bottom:300px;
+        margin-left: 25px;
 
 
     }
@@ -275,7 +277,7 @@ body {
     .links_section {
         /*padding-left: 200px;*/
         width: 280px;
-        margin-left: 50px;
+
     }
 
     .links_icons{
