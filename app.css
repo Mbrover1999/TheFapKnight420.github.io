@@ -171,6 +171,16 @@ body {
 .list_header{
     font-size: 2rem;
 }
+.project_photo{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    margin-left: 30px;
+}
+.card{
+    background-color: #303744;
+    width: 18rem;
+}
 
 @keyframes typing {
     from {
@@ -324,6 +334,12 @@ body {
         50% {
             border-color: #b3b3b4;
         }
+    }
+    .card{
+        width: 32rem;
+    }
+    .project_photo{
+        margin-left: 140px;
     }
 
 
