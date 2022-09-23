@@ -1,6 +1,6 @@
 body {
     background-color: #272c35;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Inconsolata', monospace;
     color: #b3b3b4;
 
 }
@@ -266,6 +266,8 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-top: 400px;
+        margin-bottom:200px;
 
 
     }
@@ -273,8 +275,6 @@ body {
     .links_section {
         /*padding-left: 200px;*/
         width: 280px;
-        margin-top: 900px;
-        margin-bottom:50px;
         margin-left: 50px;
     }
 
