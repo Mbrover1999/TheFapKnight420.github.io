@@ -3,6 +3,8 @@ body {
     background-color: #272c35;
     font-family: 'Inconsolata', monospace;
     color: #b3b3b4;
+    margin-left: 0 !important;
+    padding: 0 !important;
 
 }
 
@@ -100,7 +102,6 @@ body {
     border-bottom: 2px solid #3367b8;
     padding-left: 7px;
     padding-right: 4px;
-
     width: 80px;
 }
 
@@ -201,6 +202,13 @@ body {
 }
 
 @media (max-width: 1600px) {
+    html{
+        height: 1700px !important;
+    }
+    body{
+        margin: 0 !important;
+
+    }
     .main_content {
         padding-left: 40px;
         padding-top: 10px;
@@ -276,22 +284,21 @@ body {
     .icons_container{
         display: flex;
         justify-content: center;
-        align-items: center;
+        /*align-items: ;*/
         margin-top: 400px;
-        margin-bottom:300px;
-        margin-left: 25px;
+        margin-bottom: 0;
+        /*margin-left: 60px;*/
 
 
     }
-
     .links_section {
-        /*padding-left: 200px;*/
-        width: 280px;
+        padding-left: 65px;
+        width: 400px;
 
     }
 
     .links_icons{
-        scale: 250%;
+        scale: 300%;
     }
 
     .photo {
@@ -335,8 +342,16 @@ body {
             border-color: #b3b3b4;
         }
     }
+    .card-body h5{
+        font-size: 2.25rem;
+    }
+    .card-body button{
+        margin-left: 20px;
+    }
+
     .card{
-        width: 42rem;
+        width: 32rem;
+        font-size: 1.75rem;
     }
     .project_photo{
         margin-left: 140px;
