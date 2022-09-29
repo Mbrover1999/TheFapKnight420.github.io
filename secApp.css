@@ -1,0 +1,353 @@
+
+body {
+    background-color: #272c35;
+    font-family: 'Inconsolata', monospace;
+    color: #b3b3b4;
+
+}
+
+.navbar {
+    /*background: #2a303c;*/
+    background-color: #272c35;
+}
+
+.navbar_first_name {
+    color: #00b5bf !important;
+}
+
+.navbar span {
+    color: #b3b4b4;
+}
+
+.navbar_last_name {
+    color: #6fc269 !important;
+
+
+}
+
+#mainNavbar.scrolled {
+    background: #1c2026;
+    transition: background 500ms;
+}
+
+.dropdown-menu {
+    background: #b3b4b4;
+}
+
+.dropdown-item:hover {
+    background: #b3b4b4;
+    color: snow;
+}
+
+.nav-link {
+    font-size: 1.25rem !important;
+    color: #b3b3b4 !important;
+}
+
+.nav-link:hover {
+    color: #d1915a !important;
+    text-shadow: #d1915a !important;
+    transition: color 1000ms;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+}
+
+.main_content {
+    margin-top: 50px;
+    padding-left: 100px;
+}
+
+.content {
+    margin-bottom: 30px;
+}
+
+.content_print {
+    padding-left: 60px;
+}
+
+.content_skills {
+    padding-left: 60px;
+
+}
+
+.header {
+    color: #00b5bf;
+
+}
+
+.skills_label {
+    color: #dc53db;
+}
+
+.exp_value {
+    color: #d1915a;
+}
+
+.main_header {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: solid #b3b3b4; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    width: fit-content;
+    animation: typing 2.5s steps(100),
+    blink-caret .75s step-end infinite;
+}
+
+
+.console_local {
+    margin-left: 8px;
+    border-bottom: 2px solid #3367b8;
+    padding-left: 7px;
+    padding-right: 4px;
+
+    width: 80px;
+}
+
+
+.console_icons {
+    margin-left: 15px;
+}
+
+.console_header {
+    margin-top: 50px;
+    background: #303744;
+}
+
+.console_content {
+    padding-left: 8px;
+}
+
+.last_console_text {
+    width: fit-content;
+    border-right: solid #b3b4b4;
+    border-width: thick;
+    /*animation: blink-caret .75s step-end infinite;*/
+    padding-left: 8px;
+}
+.icons_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.links_section {
+    margin-top: 500px;
+    margin-bottom: 30px;
+
+}
+
+.links_icons {
+    scale: 150%;
+}
+
+.about_content {
+    display: flex !important;
+    align-items: center;
+    justify-content: center !important;
+}
+
+.photo {
+    margin-top: 140px;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
+
+.bio_header {
+    border-bottom: solid #00b5bf;
+    border-width: 5px !important;
+    width: max-content;
+}
+.bio_content{
+    font-size: 1.2rem;
+}
+
+.list_manager{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.list_header{
+    font-size: 2rem;
+}
+.project_photo{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    margin-left: 30px;
+}
+.card{
+    background-color: #303744;
+    width: 18rem;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 750px;
+    }
+}
+
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent
+    }
+    50% {
+        border-color: #b3b3b4;
+    }
+}
+
+@media (max-width: 1600px) {
+    .main_content {
+        padding-left: 40px;
+        padding-top: 10px;
+    }
+
+    .main_header {
+        font-size: 3em;
+    }
+
+    .main_item {
+        font-size: 2.75em;
+    }
+
+    .navbar {
+        height: 100px !important;
+    }
+
+    .navbar-brand {
+        font-size: 3.5em;
+    }
+
+    .navbar-toggler-icon {
+        scale: 250%;
+    }
+
+    .nav-link {
+        font-size: 2.0em !important;
+    }
+
+    .dropdown-menu {
+        font-size: 1.5em;
+    }
+
+    .nav-item {
+        border-bottom: #b3b4b4;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .navbar-collapse {
+        background: #20252c;
+    }
+
+    .main_header {
+        overflow: hidden; /* Ensures the content is not revealed until the animation */
+        border-right: solid #b3b3b4; /* The typwriter cursor */
+        white-space: nowrap; /* Keeps the content on a single line */
+        width: fit-content;
+        animation: typing 2.5s steps(60),
+        blink-caret .75s step-end infinite;
+    }
+
+    .console_header {
+        font-size: 1.75em;
+        margin-top: 130px;
+    }
+
+    .console_icons {
+        scale: 120% !important;
+    }
+
+    .console_content {
+        font-size: 1.55em;
+    }
+
+    .last_console_text {
+        font-size: 1.55em;
+        white-space: nowrap;
+
+    }
+    .icons_container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-left: 25px;
+
+
+    }
+
+    .links_section {
+        /*padding-left: 200px;*/
+        width: 280px;
+
+    }
+
+    .links_icons{
+        scale: 250%;
+    }
+
+    .photo {
+        margin-top: 250px;
+        height: 200px;
+        width: 200px;
+        border-radius: 80%;
+    }
+
+    .bio_header {
+        border-bottom: solid #00b5bf;
+        border-width: 5px !important;
+        width: max-content;
+        font-size: 3.2rem;
+    }
+    .bio_content{
+        font-size: 1.8rem;
+    }
+
+    .list_manager{
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+    .list_header{
+        font-size: 2.9rem;
+    }
+    @keyframes typing {
+        from {
+            width: 0
+        }
+        to {
+            width: 883px
+        }
+    }
+
+    @keyframes blink-caret {
+        from, to {
+            border-color: transparent
+        }
+        50% {
+            border-color: #b3b3b4;
+        }
+    }
+    .card{
+        width: 42rem;
+    }
+    .project_photo{
+        margin-left: 140px;
+    }
+
+
+}
+@media (max-width: 1700px) {
+    .links_section{
+        margin-top: 170px;
+
+    }
+
+}
