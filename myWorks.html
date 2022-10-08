@@ -63,8 +63,8 @@
     <div class="my-5 container-fluid d-flex justify-content-center">
         <h1 class="navbar_first_name bio_header list-group">My projects:</h1>
     </div>
-    <div class="row cards d-flex justify-content-evenly flex-lg-row flex-column align-items-center">
-        <div class="card col-md-4 my-5 my-lg-0">
+    <div class="row cards d-flex justify-content-evenly flex-lg-row flex-column align-items-center" id="projects">
+        <div class="card col-md-4 my-5 my-lg-0" id="c0">
             <img src="imgs/lol.ppm" class="card-img-top project_photo my-3" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Password Manager</h5>
@@ -75,7 +75,7 @@
 
             </div>
         </div>
-        <div class="card col-md-4 my-5 my-lg-0">
+        <div class="card col-md-4 my-5 my-lg-0" id="c1">
             <img src="imgs/whatsapp.png" class="card-img-top project_photo my-3" alt="...">
             <div class="card-body">
                 <h5 class="card-title">WhatsApp automated happy birthday message</h5>
@@ -87,7 +87,7 @@
 
             </div>
         </div>
-        <div class="card col-md-4 my-5 my-lg-0">
+        <div class="card col-md-4 my-5 my-lg-0" id="c2">
             <img src="imgs/snake.webp" class="card-img-top project_photo my-3" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Classic snake game</h5>
@@ -98,7 +98,7 @@
 
             </div>
         </div>
-        <div class="card col-md-4 my-5 my-lg-0">
+        <div class="card col-md-4 my-5 my-lg-0" id="c3">
             <img src="imgs/Expenses_logo.jpeg" class="card-img-top project_photo my-3" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Expenses Web Manager</h5>
@@ -109,6 +109,21 @@
 
             </div>
         </div>
+        <div class="card col-md-4 my-5 my-lg-0" id="c4">
+            <img src="imgs/Expenses_logo.jpeg" class="card-img-top project_photo my-3" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Expenses Web Manager</h5>
+                <p class="card-text">Coded in React, The web app allows the user to input new expenses and keep up with
+                    his previous ones.
+                    Includes a slick design and a demonstrative chart</p>
+                <a href="https://github.com/Mbrover1999/ExpensesManager" class="btn btn-primary col-11 mx-2" target=”_blank”>GitHub</a>
+
+            </div>
+        </div>
+    </div>
+    <div class="nav_buttons">
+    <button id="per_button" class="nav_btn btn btn-outline-primary">Previous</button>
+    <button id="next_button" class="nav_btn btn btn-outline-primary">Next</button>
     </div>
     <div class="container-fluid icons_container">
         <div class="row links_section align-items-evenly">
@@ -135,7 +150,7 @@
     </div>
 </section>
 
-
+<script src="myWorks.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
         crossorigin="anonymous"></script>

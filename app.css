@@ -182,6 +182,27 @@ body {
     background-color: #303744;
     width: 18rem;
 }
+.card_transition{
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 3s ease-in;
+}
+.nav_buttons{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#next_button{
+ margin-right: 70px;
+}
+#per_button{
+    margin-left: 70px;
+}
+.nav_btn{
+    scale: 130%;
+}
 
 @keyframes typing {
     from {
@@ -356,6 +377,15 @@ body {
     }
     .project_photo{
         margin-left: 140px;
+    }
+    .nav_buttons{
+        margin-top: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .nav_btn{
+        scale: 200%;
     }
 
 
