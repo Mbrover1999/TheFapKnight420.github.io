@@ -8,6 +8,14 @@ body {
 
 }
 
+.card{
+    height: 500px;
+}
+
+.github{
+    margin-top:40px;
+}
+
 .navbar {
     /*background: #2a303c;*/
     background-color: #272c35;
@@ -229,6 +237,10 @@ body {
     body{
         margin: 0 !important;
 
+    }
+    .card{
+        height: 650px;
+        width: 400px;
     }
     .main_content {
         padding-left: 40px;
